@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando imagens flexíveis</title>
+</head>
+<body>
+    <h1>Praticando imagens flexíveis</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="duke-p.jpg" type="image/jpg">
+        <source media="(max-width:1050px)" srcset="duke-m.jpg" type="image/jpg">
+        <img src="duke-g.jpg" alt="Imagens flexíveis">
+    </picture>
+
+    <h1>Reproduzindo áudios</h1>
+
+    <audio controls metadata>
+        <source src="../../ex011/midias/rock-leve.mp3.mp3" type="audio/mpeg">
+        <source src="../../ex011/midias/rock-leve.ogg" type="audio/ogg">
+        <source src="../../ex011/midias/rock-leve.wav" type="audio/wav">
+    </audio>
+    <p>Talvez seu navegador não consiga carregar mp3</p>
+    Clique <a href="../../ex011/midias/rock-leve.mp3.mp3">aqui</a> para ouvir
+   
+
+</body>
+</html>
