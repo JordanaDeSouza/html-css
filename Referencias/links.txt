@@ -1,0 +1,5 @@
+site da mozila- referencia html5
+https://developer.mozilla.org/pt-BR/docs/Web/HTML
+
+W3Schools
+https://www.w3schools.com/html/default.asp
